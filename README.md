@@ -1,3 +1,7 @@
+带有单词级时间戳和说话人分离功能的自动语音识别。提供了比原始 Whisper 模型快 70 倍的实时语音转录速度，并使用了更快的后端 faster-whisper。
+●    通过 wav2vec2 对齐技术，WhisperX 能够实现准确的单词级时间戳。
+●    该工具还支持多说话人的自动语音识别，并通过 pyannote-audio 实现说话人分离
+
 <h1 align="center">WhisperX</h1>
 
 <p align="center">
